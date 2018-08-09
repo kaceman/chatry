@@ -1,0 +1,24 @@
+{
+  "name": "chatry",
+  "version": "1.0.0",
+  "description": "This is a chat application using socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Chat",
+    "socket"
+  ],
+  "author": "kacem elamri",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaceman/chatry.git"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
+}
